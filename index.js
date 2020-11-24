@@ -38,3 +38,5 @@ const write = async () => {
   } catch (e) {
     console.error(e);
   }
+  
+  write();
