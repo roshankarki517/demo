@@ -17,16 +17,16 @@ const writeFileAsync = promisify(fs.writeFile);
 
 let jsArrObj = [
   {
-    name:"Rashila",
+    name:"Roshan",
+    age: 22,
+  },
+  {
+    name: "Sarita",
     age: 20,
   },
   {
-    name: "Sristy",
-    age: 15,
-  },
-  {
-    name: "Sneha",
-    age: 20
+    name: "Rakshya",
+    age: 19
   }
 ];
 const write = async () => {
